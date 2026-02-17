@@ -1,283 +1,343 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "BARBA NEGRA GRAN VIA",
+  logo: "/images/logo.png",
+  tagline: "Tu barbería de confianza en Gran Vía, 28013 Madrid",
+  description: "BARBA NEGRA GRAN VÍA es la barbería de referencia en el corazón de Madrid. Con 4.9 estrellas y 193 reseñas, nos especializamos en cortes masculinos de precisión, arreglo de barba profesional y grooming moderno. Nuestro ambiente futurista, limpieza impecable y equipo experto garantizan que salgas exactamente como lo imaginaste. Llevamos tu estilo al siguiente nivel.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#D4A574",
+    secondary: "#2D2D2D",
+    accent: "#E8C4A0",
+    neutral: "#FAF8F5"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "626 92 35 51",
+  whatsapp: "+34626923551",
+  whatsappMessage: "Hola, me gustaría pedir cita para peluquería.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Calle de Silva, 4, Centro, 28013 Madrid, España",
+    city: "Madrid",
+    province: "Madrid",
+    postalCode: "28013",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=4115648956651216262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=BARBA%20NEGRA%20GRAN%20VIA%20%4040.4206%2C-3.70797&z=16&output=embed",
+  coordinates: {
+    lat: 40.4206,
+    lng: -3.70797
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "10:00–21:00"
+    },
+    {
+      days: "sábado",
+      hours: "10:00–20:00"
+    },
+    {
+      days: "domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.9,
+    count: 193,
+    url: "https://maps.google.com/?cid=4115648956651216262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Yoselin Zevallos piñan",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Desde que entré a Barba Negra Gran\nVía quedé sorprendida por el nivel de servicio que ofrecen. El ambiente es súper moderno, limpio y organizado, da confianza desde el primer momento. La atención del personal es excelente: son amables, pacientes y se nota que saben lo que hacen. Explican todo con detalle y escuchan lo que realmente quieres, algo que se agradece bastante.\n\nEl trabajo que realizan es totalmente profesional, cuidan cada detalle y el resultado final se nota. Además el trato es muy respetuoso y el servicio es rápido sin perder calidad. Definitivamente es una de las mejores barberías de la zona, y la recomiendo totalmente si buscas buen servicio, buena atención y un trabajo impecable.",
+        date: "Hace 2 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "Cliente satisfecho",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Esta barbería en Madrid se ha convertido en nuestro lugar fijo porque hacen muy buen trabajo. El ambiente es agradable, limpio y sin pretensiones. Desde que entras te atienden bien, son puntuales y todo se siente profesional.\n\nLos barberos saben lo que hacen: escuchan lo que quieres, dan sugerencias y cuidan los detalles. Mi novio siempre sale con el corte bien hecho, la barba limpia y definida, y en general con una imagen mucho más ordenada. Se nota la diferencia comparado con otros lugares. Además la decoración es muy moderna y futurista, son muy limpios.",
+        date: "Hace 2 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Francesco Mendoza",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Esta barbería es realmente excelente. Desde que entras se nota la limpieza, el orden y el profesionalismo con el que trabajan. Lo mejor es que hacen los cortes exactamente como los pides: llevas una foto y te lo dejan igual, tal cual la imagen, sin inventar ni cambiar nada. Se nota que dominan su trabajo y tienen buen ojo para los detalles. Además, el ambiente es agradable y se siente la dedicación en cada servicio. En serio, una barbería de confianza, de esas que uno siempre quiere volver porque sabes que vas a salir con el corte perfecto.",
+        date: "Hace 3 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Yulissa Zapeth",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Fui con mi novio y la verdad nos gustó muchísimo. Desde que llegamos el personal fue súper amable y atentos en todo momento. A mi novio le dejaron el corte justo como quería, se veía genial y salió muy contento. Yo como acompañante también me sentí cómoda, el ambiente es agradable, el lugar está limpio y tienen buena música, así que el rato se pasa rápido. Se nota que hacen bien su trabajo y que les importa que uno se lleve una buena experiencia. Sin duda lo recomiendo, vale mucho la pena venir. 💈✨",
+        date: "Hace 3 meses"
       },
-    ],
+      {
+        author: "Fernanda Macedo huamani",
+        rating: 5,
+        text: "Barba Negra Gran Vía es una barbería y peluquería con un estilo moderno y buena vibra. El local es limpio, ordenado y tiene un ambiente cómodo que hace que te sientas a gusto desde que entras.\n\nLa atención es muy buena; el personal es amable y siempre está atento a lo que el cliente quiere. Los cortes y arreglos se realizan con cuidado y profesionalismo, logrando resultados que realmente cumplen con las expectativas.❤️",
+        date: "Hace 1 mes"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "corte-masculino",
+      name: "Corte Masculino",
+      description: "Cortes de precisión adaptados a tu estilo y facciones. Llevamos cualquier referencia que traigas a la realidad exacta. Nuestros barberos dominan desde estilos clásicos hasta las últimas tendencias urbanas, cuidando cada detalle para un acabado impecable.",
+      benefits: [
+        "Corte exacto según tu foto de referencia",
+        "Asesoramiento personalizado según tu tipo de rostro",
+        "Acabado profesional con productos premium"
+      ],
+      icon: "Scissors"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "arreglo-barba",
+      name: "Arreglo de Barba",
+      description: "Perfilado, recorte y definición de barba con técnicas profesionales. Dejamos tu barba limpia, ordenada y con líneas perfectamente definidas. Trabajamos el contorno, densidad y forma para que luzca impecable y fácil de mantener.",
+      benefits: [
+        "Perfilado de precisión y líneas definidas",
+        "Tratamiento hidratante incluido",
+        "Resultado duradero y fácil de mantener"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "corte-barba",
+      name: "Corte + Barba Completo",
+      description: "El servicio estrella: corte de cabello y arreglo de barba en una sola sesión. Transformación completa para una imagen ordenada y profesional. Saldrás con un look coordinado y totalmente renovado, listo para cualquier ocasión.",
+      benefits: [
+        "Transformación completa en una sesión",
+        "Imagen coordinada y profesional",
+        "Ahorro de tiempo con servicio combinado"
+      ],
+      icon: "Crown"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "afeitado-clasico",
+      name: "Afeitado Clásico",
+      description: "Experiencia de afeitado tradicional con toalla caliente, espuma de calidad y navaja profesional. Un ritual de grooming que deja tu piel suave, limpia y revitalizada. Perfecto para ocasiones especiales o cuando buscas ese extra de cuidado.",
+      benefits: [
+        "Técnica tradicional con toalla caliente",
+        "Piel suave e hidratada",
+        "Experiencia relajante y premium"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "diseno-barba",
+      name: "Diseño de Barba",
+      description: "Creación y diseño de estilos de barba personalizados. Desde degradados hasta líneas artísticas, trabajamos tu barba como una obra de arte. Ideal para quienes buscan un look único y con personalidad que marque la diferencia.",
+      benefits: [
+        "Diseños personalizados y únicos",
+        "Técnicas artísticas de precisión",
+        "Estilo que refleja tu personalidad"
+      ],
+      icon: "Layers"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "tratamiento-capilar",
+      name: "Tratamiento Capilar",
+      description: "Cuidados específicos para mantener tu cabello sano, fuerte y con brillo. Aplicamos productos profesionales adaptados a tu tipo de pelo. Perfecto para combatir la sequedad, caspa o simplemente mantener un cabello en óptimas condiciones.",
+      benefits: [
+        "Productos profesionales de alta gama",
+        "Cabello más sano y resistente",
+        "Resultados visibles desde la primera sesión"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "arreglo-cejas",
+      name: "Arreglo de Cejas",
+      description: "Perfilado y definición de cejas masculinas para un rostro más expresivo y cuidado. Un detalle que marca la diferencia en tu imagen global. Técnica precisa que respeta la forma natural mientras elimina el exceso.",
+      benefits: [
+        "Rostro más definido y expresivo",
+        "Resultado natural y masculino",
+        "Complemento perfecto para tu corte"
+      ],
+      icon: "User"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "grooming-completo",
+      name: "Grooming Completo",
+      description: "El paquete definitivo: corte, barba, cejas y tratamientos. Transformación total para verte y sentirte en tu mejor versión. Ideal para eventos importantes, entrevistas o cuando simplemente quieres invertir en ti mismo.",
+      benefits: [
+        "Transformación 360° de tu imagen",
+        "Todos los servicios en una sesión",
+        "Máximo cuidado y atención al detalle"
+      ],
+      icon: "Crown"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Reserva tu cita",
+      description: "Llámanos al 626 92 35 51 o escríbenos por WhatsApp. Somos puntuales y respetamos tu tiempo. Agenda el día y hora que mejor te venga en plena Gran Vía de Madrid."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta personalizada",
+      description: "Escuchamos lo que realmente quieres. Trae una foto de referencia y nuestros barberos te asesorarán sobre el mejor estilo según tu tipo de rostro, cabello y preferencias personales."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Trabajo profesional",
+      description: "Nuestro equipo trabaja con precisión y cuidado en cada detalle. Usamos técnicas profesionales y productos de alta calidad en un ambiente moderno, limpio y con buena música."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Resultado impecable",
+      description: "Sales con el corte exacto que pediste, barba definida e imagen totalmente renovada. Te damos consejos para mantener tu look en casa hasta la próxima visita."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "4.9 estrellas en Google",
+      description: "Con 193 reseñas verificadas, somos una de las barberías mejor valoradas de Madrid. Nuestros clientes destacan la calidad del trabajo, la limpieza impecable y la atención profesional. Su confianza es nuestra mejor carta de presentación.",
+      icon: "Crown"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Precisión garantizada",
+      description: "Hacemos los cortes exactamente como los pides. Traes una foto y te lo dejamos igual, tal cual la imagen. Nuestros barberos dominan su técnica y tienen buen ojo para los detalles. Sin sorpresas, solo el resultado que esperabas.",
+      icon: "Scissors"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Ambiente moderno y limpio",
+      description: "Desde que entras notas la diferencia: decoración futurista, espacio ordenado, limpieza impecable y buena música. Un ambiente que inspira confianza y hace que tu experiencia sea cómoda y agradable de principio a fin.",
+      icon: "Sparkles"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Equipo profesional y cercano",
+      description: "Personal amable, paciente y experto que escucha lo que realmente quieres. Explicamos cada paso, damos sugerencias honestas y nos dedicamos a que salgas con una imagen ordenada y profesional. Atención que marca la diferencia.",
+      icon: "Heart"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Equipo de BARBA NEGRA GRAN VIA",
+      role: "Estilistas Profesionales",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Estilistas apasionados por la belleza y las tendencias. En BARBA NEGRA GRAN VIA nos dedicamos a que cada cliente salga con el look perfecto y la confianza renovada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 9"
+    },
+    {
+      src: "/images/gallery/10.webp",
+      alt: "BARBA NEGRA GRAN VIA - Imagen 10"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Necesito cita previa en BARBA NEGRA GRAN VÍA?",
+      answer: "Recomendamos reservar cita previa para garantizar tu horario preferido, especialmente en fines de semana. Puedes llamarnos al 626 92 35 51 o escribirnos por WhatsApp. Somos muy puntuales y respetamos tu tiempo. Si hay disponibilidad, también atendemos sin cita."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Puedo llevar una foto de referencia para mi corte?",
+      answer: "¡Absolutamente! De hecho, lo recomendamos. En BARBA NEGRA nos especializamos en recrear exactamente el corte que traes en foto. Nuestros barberos tienen el ojo y la técnica para dejártelo tal cual la imagen, sin inventar ni cambiar nada. Es una de las cosas que más valoran nuestros clientes."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Qué servicios incluye el arreglo de barba completo?",
+      answer: "El arreglo de barba incluye perfilado de precisión, recorte según la longitud deseada, definición de líneas y contornos, y tratamiento hidratante. Dejamos tu barba limpia, ordenada y perfectamente definida. También asesoramos sobre el mejor estilo según la forma de tu rostro y tipo de vello."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Por qué BARBA NEGRA tiene tan buenas valoraciones?",
+      answer: "Tenemos 4.9 estrellas sobre 5 con 193 reseñas en Google porque cuidamos cada detalle. Nuestros clientes destacan la limpieza impecable del local, el ambiente moderno y futurista, la atención profesional y amable, y sobre todo que hacemos los cortes exactamente como los piden. Nos tomamos en serio tu imagen y eso se nota en cada servicio."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Dónde está ubicada la barbería?",
+      answer: "Estamos en plena Gran Vía de Madrid, código postal 28013, en el corazón de la ciudad. Es una ubicación céntrica y muy accesible en transporte público. El local es moderno, limpio y tiene un ambiente cómodo que hace que te sientas a gusto desde que entras."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Atienden también a mujeres o solo hombres?",
+      answer: "Aunque somos especialistas en barbería masculina, muchas parejas vienen juntas y las acompañantes se sienten muy cómodas en nuestro espacio. Tenemos buena música, ambiente agradable y un equipo amable que hace que la espera sea entretenida. Nuestro enfoque principal son los servicios de grooming masculino."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué marcas y productos utilizan?",
+      answer: "Trabajamos con productos profesionales de alta gama específicos para barbería y cuidado masculino. Usamos líneas premium para tratamientos capilares, afeitado y styling. Todos nuestros productos están seleccionados para garantizar resultados duraderos, cuidar tu piel y cabello, y ofrecer el mejor acabado posible."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cuánto dura un servicio completo de corte y barba?",
+      answer: "Un servicio completo de corte y barba suele durar entre 45 minutos y una hora, dependiendo del estilo y complejidad. En BARBA NEGRA GRAN VÍA trabajamos con rapidez sin perder calidad. Nos tomamos el tiempo necesario para que el resultado sea impecable, pero siempre siendo eficientes y respetando tu agenda."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | BARBA NEGRA GRAN VIA",
+    defaultTitle: "BARBA NEGRA GRAN VIA - Barbería Premium en 28013 Madrid",
+    defaultDescription: "Barbería especializada en cortes masculinos y arreglo de barba en Gran Vía, Madrid. 4.9★ en Google. Cortes de precisión, ambiente moderno. Reserva: 626 92 35 51",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "barbería Madrid",
+      "barbería Gran Vía",
+      "BARBA NEGRA GRAN VIA",
+      "corte masculino Madrid 28013",
+      "arreglo barba Madrid",
+      "barbería 28013",
+      "peluquería masculina Madrid centro",
+      "grooming Madrid",
+      "barbería profesional Gran Vía",
+      "corte barba Madrid",
+      "mejor barbería Madrid",
+      "afeitado clásico Madrid"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "BARBA NEGRA GRAN VIA",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Calle de Silva, 4, Centro, 28013 Madrid, España, Madrid, Madrid"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Peluquería",
+    "en Madrid"
+  ],
+  heroDescription: "En plena Gran Vía de Madrid, BARBA NEGRA combina técnica profesional con un ambiente moderno y futurista. Somos especialistas en cortes masculinos de precisión, arreglo de barba y grooming personalizado. Traes la foto, nosotros la hacemos realidad.",
+  specialty: "Barbería Masculina Premium",
+  ctaLabel: "Tu Nuevo Look",
+  ctaHeadline: "¿Listo para tu mejor versión?",
+  ctaDescription: "Reserva tu cita en BARBA NEGRA GRAN VÍA y descubre por qué somos la barbería mejor valorada de la zona. Atención profesional, resultados impecables.",
+  statsLabel: "Clientes",
+  schemaType: "HairSalon",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
@@ -300,8 +360,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
